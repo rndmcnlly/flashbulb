@@ -438,7 +438,7 @@ INDEX_TEMPLATE = Template("""\
 </head>
 <body>
 <h1>Flashbulb</h1>
-<p class="subtitle">{{ photo_count }} photos, {{ year_min }}&ndash;{{ year_max }} &middot; Adam Smith's photo archive &middot; <a href="tags/">tags</a></p>
+<p class="subtitle">{{ photo_count }} photos, {{ year_min }}&ndash;{{ year_max }} &middot; Adam Smith's photo archive &middot; <a href="tags/">tags</a> &middot; <a href="https://github.com/rndmcnlly/flashbulb">source</a></p>
 <div class="search-box"><input type="text" id="search-input" placeholder="Search titles, tags, descriptions..."></div>
 <div id="search-results" style="display:none"></div>
 <div class="toc">{% for year, photos in years %}<a href="#y{{ year }}">{{ year }} ({{ photos|length }})</a>{% endfor %}</div>
