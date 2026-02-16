@@ -434,6 +434,7 @@ INDEX_TEMPLATE = Template("""\
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Flashbulb — Adam Smith's Photo Archive</title>
+<link rel="icon" href="https://adamsmith.as/favicon.ico">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -468,6 +469,7 @@ PHOTO_TEMPLATE = Template("""\
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ photo.name }} — Flashbulb</title>
+<link rel="icon" href="https://adamsmith.as/favicon.ico">
 <link rel="stylesheet" href="../../assets/style.css">
 </head>
 <body class="photo-page">
@@ -546,6 +548,7 @@ TAG_INDEX_TEMPLATE = Template("""\
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tags — Flashbulb</title>
+<link rel="icon" href="https://adamsmith.as/favicon.ico">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
@@ -566,6 +569,7 @@ TAG_PAGE_TEMPLATE = Template("""\
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ tag }} — Flashbulb</title>
+<link rel="icon" href="https://adamsmith.as/favicon.ico">
 <link rel="stylesheet" href="../../assets/style.css">
 </head>
 <body>
